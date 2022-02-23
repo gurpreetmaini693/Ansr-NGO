@@ -1,0 +1,166 @@
+body{
+  background: black;
+}
+
+#op{
+  font-family: sans-serif;
+  cursor: pointer;
+  white-space: nowrap;
+}
+#fo{
+  font-weight: bolder;
+  font-family: cursive;
+  animation-name: fo;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+}
+@keyframes fo{
+  from{
+    color: lightgreen;
+  }
+  to{
+    color: darkgreen;
+  }
+}
+#donate{
+  font-family: sans-serif;
+  animation-name: pp;
+  animation-iteration-count: infinite;
+  animation-duration: 1.5s;
+}
+@keyframes pp{
+  from{
+    color: green;
+  }
+  to{
+    color: red;
+  }
+}
+
+#ser{
+  font-family: cursive;  
+}
+#kk{
+  font-family: cursive;
+}
+#team{
+  font-family: cursive;
+}
+#contact{
+  background: whitesmoke;
+}
+#style{
+  border-style: dotted;
+}
+#f{
+  animation-name: f;
+  animation-iteration-count: infinite;
+  animation-duration: 1.5s;
+}
+@keyframes f{
+  from{
+    color: lightgreen;
+  }
+  to{
+    color: darkgreen;
+  }
+}
+#txt{
+  font-family: monospace;
+  font-weight: bolder;
+}
+#res{
+  animation-name: res;
+  animation-iteration-count: infinite;
+  animation-duration: 1.5s;
+}
+@keyframes res{
+  from{
+    color: yellow;
+  }
+  to{
+    color: orange;
+  }
+}
+#pk{
+  font-family: monospace;
+}
+.s{
+  font-family: serif;
+  font-weight: bolder;
+}
+.i{
+  font-family: cursive;
+  font-weight: bold;
+}
+#go{
+  animation-name: go;
+  animation-iteration-count: infinite;
+  animation-duration: 1.5s;
+  }
+@keyframes go{
+  from{
+    color: mediumpurple;
+  }
+  to{
+    color: purple;
+  }
+}
+.cur{
+  cursor: pointer;
+}
+.transitions{
+  transition: transform;
+  transition-duration: 1s;
+}
+.transitions:hover{
+  transform: scale(1.2);
+}
+.tikki{
+  transition: transform;
+  transition-duration: 2s;
+  border-style: groove dashed;
+}
+.tikki:hover{
+  transform: rotate(360deg);
+  /*border-style: ridge dotted;*/
+}
+.lg{
+  transition: transform;
+  transition-duration: 2s;
+}
+.lg:hover{
+  /*transform: ; */
+}
+
+.fade:hover
+{
+       border-style: ridge;
+       border-width: 10px;
+}
+.ij{
+  position: relative;
+  margin-left: 42%;
+  font-family: cursive;
+  font-weight: bolder;
+  animation-name: ij;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes ij{
+  from{
+    color: darkblue;
+  }
+  to{
+    color: lightblue;
+  }
+}
+.iko{
+  background: lightblue;
+}
+.pko{
+  background: lightgoldenrodyellow;
+}
+
+
+
